@@ -1,0 +1,104 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+<div class="bgimg-1">
+	<div class="container"><br \><br \><br \><br \>
+		<!-- <div class="jumbo-container" style="opacity:0.7"> -->
+		<div class="modified-jumbotron">
+			<!-- <img src="/images/logo.svg" width="160"> -->
+
+			<h1>Welcome</h1>
+			<p>This is the site for the Wildlife Camera Trap</p>
+			<p>
+				Arduino is used as the platform of this study. A camera trap is being placed in the wild
+				to capture images of animals and upload them here.
+			</p>
+			<p>Visit <a href="/gallery" target="_blank">Gallery</a> to view the images and their details.</p>
+			<br />
+			<!-- <div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="list-group table-of-contents" style="opacity:0.6">
+					<a class="list-group-item" href="#abt-proj">About the Project</a>
+					<a class="list-group-item" href="#abt-author">About the Authors</a>
+				</div>
+			</div> -->
+			<br /><br /><br /><br /><br /><br />
+
+			<!-- <hr>
+			{% if user and user.canAccessKeystone %}
+				<p>
+					<a href="/keystone" class="btn btn-lg btn-primary">Open the Admin UI</a>
+				</p>
+			{% else %}
+				<p>We have created a default Admin user for you with the email <strong>user@keystonejs.com</strong> and the password <strong>password</strong>.</p>
+				<p>
+					<a href="/keystone/signin" style="margin-right: 10px" class="btn btn-lg btn-primary">Sign in</a>
+					to use the Admin UI.
+				</p>
+			{% endif %}
+			<hr> -->
+
+		</div>
+	<!-- </div> -->
+	</div>
+</div>
+
+<div class="bgimg-2" id="abt-proj">
+	<div class="container"><br \><br \><br \><br \>
+		<div class="modified-jumbotron">
+			<!-- <img src="/images/logo.svg" width="160"> -->
+
+			<h2>About the Project</h2>
+			<p>
+				The use of camera traps has been a helpful method to monitor and capture different species
+				in a specific area and monitor each of them. With this, the demand of this methodology has
+				dramatically increased in the recent years. In this project, Arduino will be used as a platform
+				to perform the camera trap. A camera will be left in the wild and the captured images will be saved
+				in a database. The saved images will then be accessed through this site.
+			</p>
+			<p>
+				You can visit <a href="/gallery" target="_blank">Gallery</a> to view the images and their details.</p>
+			</p>
+			<!-- <p>This is the site for the Wildlife Camera Trap</p>
+			<p>
+				Arduino is used as the platform of this study. A camera trap is being placed in the wild
+				to capture images of animals and upload them here.
+			</p>
+			<p>Visit <a href="/gallery" target="_blank">Gallery</a> to view the images and their details.</p> -->
+			<br />
+		</div>
+	</div>
+</div>
+
+<div class="bgimg-3" id="abt-author">
+	<div class="container"><br \><br \><br \><br \>
+		<div class="modified-jumbotron">
+			<!-- <img src="/images/logo.svg" width="160"> -->
+
+			<h2>About the Authors</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a leo quis dui blandit posuere.
+				Suspendisse iaculis ex in consequat viverra. Aenean ac tincidunt enim. Donec at efficitur neque.
+				Nunc varius, mi ac ullamcorper aliquet, urna lorem laoreet sapien, nec sollicitudin elit magna ut felis.
+				Donec volutpat sapien vel placerat suscipit. Cras maximus efficitur sem, in feugiat turpis sagittis ac.
+				Aliquam nec ex neque. Nulla diam libero, molestie non lacus eu, cursus pharetra libero. Duis fringilla erat tortor,
+				vitae euismod ex consectetur at. Integer at finibus leo. Integer sed ullamcorper odio, vitae tincidunt mi.
+				Sed auctor urna neque, vitae varius nunc mattis vel. Nulla sagittis sit amet nibh ac molestie.
+				Sed eget arcu id mi bibendum efficitur. Donec ornare dignissim velit, quis congue massa.
+			</p>
+			<!-- <p>This is the site for the Wildlife Camera Trap</p>
+			<p>
+				Arduino is used as the platform of this study. A camera trap is being placed in the wild
+				to capture images of animals and upload them here.
+			</p>
+			<p>Visit <a href="/gallery" target="_blank">Gallery</a> to view the images and their details.</p>
+			<br />
+			<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="list-group table-of-contents" style="opacity:0.6">
+					<a class="list-group-item" href="#">About the Project</a>
+					<a class="list-group-item" href="#">About the Authors</a>
+				</div>
+			</div> -->
+		</div>
+	</div>
+</div>
+{% endblock %}
